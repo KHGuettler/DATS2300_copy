@@ -1,0 +1,8 @@
+{
+    "latex-workshop.message.badbox.show": false,
+    "latex-workshop.message.latexlog.exclude": [
+        "Underfull \\hbox ",
+        "Overfull \\hbox",
+        "The counter will not be printed."
+    ]
+}

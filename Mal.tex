@@ -1,0 +1,65 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=0.5in]{geometry}
+\usepackage{mathtools}
+\usepackage{enumerate}
+
+
+\usepackage{xcolor}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\definecolor{palegold}{rgb}{0.9, 0.7, 0.6}
+\definecolor{darkslategrey}{RGB}{47,79,79}
+\definecolor{intellijkeyword}{RGB}{204, 120, 50}
+\definecolor{intellijstring}{RGB}{106, 135, 89}
+\definecolor{intellijint}{RGB}{104, 151, 187}
+
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	urlcolor=blue
+}
+
+\usepackage{listings}
+
+
+
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=left,
+  numberstyle=\tiny\color{red},
+  keywordstyle=\color{intellijkeyword},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{intellijstring},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3,
+  otherkeywords={;},
+}
+
+
+
+
+\usepackage[parfill]{parskip}
+
+\usepackage{imakeidx}
+\makeindex
+
+
+\begin{document}
+
+\tableofcontents
+
+\newpage
+
+	 
+\printindex
+\end{document}

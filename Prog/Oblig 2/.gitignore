@@ -1,0 +1,14 @@
+# Folders
+.gradle/
+bin/
+.idea/
+gradle/
+build/
+
+
+# Files
+.project
+.settings/org.eclipse.buildship.core.prefs
+.classpath
+gradlew
+gradlew.bat
